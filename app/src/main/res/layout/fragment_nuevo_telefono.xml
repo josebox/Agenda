@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jose.at.NuevoTelefono">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/edNombreInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/edTelefonoInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Telefono"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/edNombreInsert"
+        android:layout_alignLeft="@+id/edNombreInsert"
+        android:layout_alignStart="@+id/edNombreInsert" />
+
+    <Button
+        android:id="@+id/btnAñadir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Añadir"
+        android:layout_below="@+id/edTelefonoInsert"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="NUEVO TELEFONO"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+</RelativeLayout>
